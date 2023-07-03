@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="files/swiper.min.css?_v=20230629161959">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230629161959">
+    <link rel="stylesheet" href="files/swiper.min.css?_v=20230703155943">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230703155943">
     <title>About us</title>
 </head>
 
@@ -166,7 +166,7 @@
                     <div class="footer-sub-title _sub-title">LET'S GET STARTED</div>
                     <h2 class="footer-title _title">Take your business <br><span>to the next level</span></h2>
                 </div>
-                <button class="footer-button _get-started-btn">GET STARTED</button>
+                <a href="solution-coverage.html" title="GET STARTED" class="footer-button _get-started-btn">GET STARTED</a>
             </div>
             <nav class="footer-nav">
                 <div class="nav-column">
@@ -216,6 +216,71 @@
         </div>
     </div>
 </footer> 
-    <script src="js/app.min.js?_v=20230629161959"></script>
+    <section class="lets-talk-modal">
+    <button class="lets-talk-modal-close icon-plus-solid">Close</button>
+    <div class="lets-talk-modal-window _container">
+        <h1 class="lets-talk-modal-title _title">Fill the form and we’ll<span>be in touch as soon as possible</span></h1>
+        <div class="lets-talk-modal-form-block">
+            <div class="spinner"><span></span></div>
+            <div class="message">Thank you, the data was sent successfully, please wait for a callback</div>
+            <form action="#" class="lets-talk-modal-form">
+                <div class="lets-talk-modal-form-inputs">
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Your name</h3>
+                        <input required type="text" placeholder="Name" class="lets-talk-modal-form-input">
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Email</h3>
+                        <input required type="text" placeholder="Email" class="lets-talk-modal-form-input">
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Company name</h3>
+                        <input required type="text" placeholder="Company name" class="lets-talk-modal-form-input">
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Company website (optional)</h3>
+                        <input type="text" placeholder="https://" class="lets-talk-modal-form-input">
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Select partnership type</h3>
+                        <div class="select-block card-select-block">
+                            <div class="select-button"><span></span></div>
+                            <select class="select" name="partners" >
+                                <option selected disabled="" >Technology partners</option>
+                                <option value="1">Technology partners</option>
+                                <option value="2">Media partners</option>
+                                <option value="3">Business partners</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">How did you hear about us?</h3>
+                        <div class="select-block card-select-block">
+                            <div class="select-button"><span></span></div>
+                            <select class="select" name="media" >
+                                <option selected disabled="" >instagram</option>
+                                <option value="1">Instagram</option>
+                                <option value="2">Telegram</option>
+                                <option value="3">Facebook</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="lets-talk-modal-form-input-wrapper">
+                    <h3 class="lets-talk-modal-input-title">How can we help you?</h3>
+                    <textarea placeholder="Your message" class="lets-talk-modal-form-textarea"></textarea>
+                </div>
+                <div class="lets-talk-modal-form-checkbox-wrapper">
+                    <input required type="checkbox" class="lets-talk-modal-form-checkbox">
+                    <div class="lets-talk-modal-form-checkbox-text">I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></div>
+                </div>
+                <button type="submit" class="lets-talk-modal-form-button">Submit</button>
+            </form>
+            <div class="lets-talk-modal-form-block-icon"><img src="icons/footer-moon.svg" alt="icon moon"></div>
+        </div>
+    </div>
+</section> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js?_v=20230703155943"></script>
+    <script src="js/app.min.js?_v=20230703155943"></script>
 </body>
 </html>

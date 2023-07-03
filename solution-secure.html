@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="files/swiper.min.css?_v=20230629161959">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230629161959">
+    <link rel="stylesheet" href="files/swiper.min.css?_v=20230703155943">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230703155943">
     <title>Solution secure</title>
 </head>
 
-<body>
+<body class="solution">
     <header class="header">
     <div class="header-container _container">
         <div class="header-wrapper">
@@ -75,26 +75,26 @@
                 <div class="secure-body">
                     <div class="secure-image"><picture><source srcset="img/solutions/solution-secure.webp" type="image/webp"><img src="img/solutions/solution-secure.png" alt="image"></picture></div>
                     <div class="secure-descr">
-                        <h1 class="secure-title _title">Card Authentication with<span>3D Secure</span></h1>
+                        <h1 class="secure-title _title">Card Authentication with<span> 3D Secure</span></h1>
                         <div class="secure-text">
                             <p>When it comes to payment processing, it's essential to ensure that your customers' financial information is kept safe and secure. That's why we are proud to offer the highest level of PCI DSS compliant safety and security in our payment processing services. PCI DSS, or Payment Card Industry Data Security Standards, is a set of guidelines established by major credit card companies to protect against credit card fraud. By adhering to these standards, we are able to provide our customers with peace of mind that their sensitive information is being handled in a secure and compliant manner. Additionally, we continuously monitor and update our systems to ensure that we maintain the highest level of security at all times.</p>
                         </div>
                     </div>
                 </div>
                 <div class="secure-paging _paging-solution">
-                    <a href="solution-prevention2.html" class="secure-page-prev _paging-solution icon-arrow-left"></a>
-                    <div class="secure-paging-count _paging-solution">
+                    <a href="solution-prevention2.html" class="secure-page-prev _paging-solution-prev icon-arrow-left"></a>
+                    <div class="secure-paging-count _paging-solution-count">
                         <span>05</span>
                         <span>06</span>
                     </div>
-                    <a href="solution-monitoring.html" class="secure-page-prev _paging-solution icon-arrow-left"></a>
+                    <a href="solution-monitoring.html" class="secure-page-next _paging-solution-next icon-arrow-left"></a>
                 </div>
             </div>
         </section>
         <section class="secure-authentication">
             <div class="secure-authentication-container _container">
                 <div class="secure-authentication-sub-title _sub-title">AUTHENTICATION</div>
-                <h2 class="secure-authentication-title _title">Payment authentication confirms a customer’s identity through one ormore factors:<span>knowledge, ownership, inheritance</span></h2>
+                <h2 class="secure-authentication-title _title">Payment authentication <br> confirms a customer’s identity through one ormore factors:<span>knowledge, ownership, inheritance</span></h2>
             </div>
         </section>
         <section class="secure-our">
@@ -147,7 +147,7 @@
                     <div class="footer-sub-title _sub-title">LET'S GET STARTED</div>
                     <h2 class="footer-title _title">Take your business <br><span>to the next level</span></h2>
                 </div>
-                <button class="footer-button _get-started-btn">GET STARTED</button>
+                <button class="footer-button _get-started-btn _lets-talk-btn">Lets talk</button>
             </div>
             <nav class="footer-nav">
                 <div class="nav-column">
@@ -197,6 +197,71 @@
         </div>
     </div>
 </footer> 
-    <script src="js/app.min.js?_v=20230629161959"></script>
+    <section class="lets-talk-modal">
+    <button class="lets-talk-modal-close icon-plus-solid">Close</button>
+    <div class="lets-talk-modal-window _container">
+        <h1 class="lets-talk-modal-title _title">Fill the form and we’ll<span>be in touch as soon as possible</span></h1>
+        <div class="lets-talk-modal-form-block">
+            <div class="spinner"><span></span></div>
+            <div class="message">Thank you, the data was sent successfully, please wait for a callback</div>
+            <form action="#" class="lets-talk-modal-form">
+                <div class="lets-talk-modal-form-inputs">
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Your name</h3>
+                        <input required type="text" placeholder="Name" class="lets-talk-modal-form-input">
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Email</h3>
+                        <input required type="text" placeholder="Email" class="lets-talk-modal-form-input">
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Company name</h3>
+                        <input required type="text" placeholder="Company name" class="lets-talk-modal-form-input">
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Company website (optional)</h3>
+                        <input type="text" placeholder="https://" class="lets-talk-modal-form-input">
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">Select partnership type</h3>
+                        <div class="select-block card-select-block">
+                            <div class="select-button"><span></span></div>
+                            <select class="select" name="partners" >
+                                <option selected disabled="" >Technology partners</option>
+                                <option value="1">Technology partners</option>
+                                <option value="2">Media partners</option>
+                                <option value="3">Business partners</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="lets-talk-modal-form-input-wrapper">
+                        <h3 class="lets-talk-modal-input-title">How did you hear about us?</h3>
+                        <div class="select-block card-select-block">
+                            <div class="select-button"><span></span></div>
+                            <select class="select" name="media" >
+                                <option selected disabled="" >instagram</option>
+                                <option value="1">Instagram</option>
+                                <option value="2">Telegram</option>
+                                <option value="3">Facebook</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="lets-talk-modal-form-input-wrapper">
+                    <h3 class="lets-talk-modal-input-title">How can we help you?</h3>
+                    <textarea placeholder="Your message" class="lets-talk-modal-form-textarea"></textarea>
+                </div>
+                <div class="lets-talk-modal-form-checkbox-wrapper">
+                    <input required type="checkbox" class="lets-talk-modal-form-checkbox">
+                    <div class="lets-talk-modal-form-checkbox-text">I agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></div>
+                </div>
+                <button type="submit" class="lets-talk-modal-form-button">Submit</button>
+            </form>
+            <div class="lets-talk-modal-form-block-icon"><img src="icons/footer-moon.svg" alt="icon moon"></div>
+        </div>
+    </div>
+</section> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js?_v=20230703155943"></script>
+    <script src="js/app.min.js?_v=20230703155943"></script>
 </body>
 </html>
